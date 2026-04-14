@@ -11,16 +11,15 @@
   import { getFirestore, doc, getDoc, setDoc, onSnapshot, updateDoc, arrayUnion, arrayRemove }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-  // ── REEMPLAZA CON TU CONFIG DE FIREBASE ──
   const firebaseConfig = {
-    apiKey: "TU_API_KEY",
-    authDomain: "TU_PROJECT.firebaseapp.com",
-    projectId: "TU_PROJECT_ID",
-    storageBucket: "TU_PROJECT.appspot.com",
-    messagingSenderId: "TU_SENDER_ID",
-    appId: "TU_APP_ID"
+    apiKey: "AIzaSyCk5F03YwpuB8kSTCHUytCP6JVLC93-uVw",
+    authDomain: "costarica-ats-2026.firebaseapp.com",
+    projectId: "costarica-ats-2026",
+    storageBucket: "costarica-ats-2026.firebasestorage.app",
+    messagingSenderId: "509389735855",
+    appId: "1:509389735855:web:5d4e96599c2a85fc62d15a",
+    measurementId: "G-S5TYTQPCWP"
   };
-  // ─────────────────────────────────────────
 
   const app = initializeApp(firebaseConfig);
   const db  = getFirestore(app);
